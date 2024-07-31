@@ -64,7 +64,7 @@ search_btn.addEventListener("click", function() {
             app.get ('/' , (req,res) => {
                 res.render('index' , {
                     title : "HOME",
-                    longtitude : data.latitude,
+                    longtitude : data.longtitude,
                     latitude:data.latitude
                 })
             })
