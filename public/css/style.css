@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:3000px;
+    background-image:url(../imges/wheater.jpg) ;
+    /* background-color: blueviolet; */
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+h2{
+    background-color: black;
+    color:white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+.f_div{
+    padding:20px;
+    margin:10px 10px 30px 10px;
+    background-color: rgb(54, 148, 191);
+
+}
+#ctry_name{
+    padding:8px;
+}
+#weather-btn{
+    padding:8px;
+    background-color: rgb(161, 29, 29);
+    color:white;
+    border:0;
+}
+.info{
+    padding: 8px 5px;
+    margin-left: 10px;
+    background-color: black;
+    color:white;
+}
