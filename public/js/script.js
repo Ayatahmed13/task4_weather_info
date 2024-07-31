@@ -52,11 +52,11 @@ search_btn.addEventListener("click", function() {
             app.get ('/' , (req,res) => {
                 res.render('index' , {
                     title : "HOME",
-                    data : error
+                    error : error
                 })
             })
             app.listen(port, () => {
-                console.log(`Example app listening on port ${port}`)
+                
                 })
             
         }
@@ -64,11 +64,12 @@ search_btn.addEventListener("click", function() {
             app.get ('/' , (req,res) => {
                 res.render('index' , {
                     title : "HOME",
-                    data : data
+                    longtitude : data.latitude,
+                    latitude:data.latitude
                 })
             })
             app.listen(port, () => {
-                console.log(`Example app listening on port ${port}`)
+               
                 })
         }
     })
